@@ -1,1 +1,1 @@
-module.exports = 'Ecored Base PKG'
+module.exports = 'Gestión de bases de datos relacionales y NoSQL'

@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 84 84">
+  <g id="Grupo_1185250" data-name="Grupo 1185250" transform="translate(-1003.711 -4849)">
+    <rect id="Rectángulo_458791" data-name="Rectángulo 458791" width="84" height="84" rx="42" transform="translate(1003.711 4849)" fill="#1e535a"/>
+    <g id="computadora_5_" data-name="computadora (5)" transform="translate(1020.711 4853.658)">
+      <g id="Grupo_1185240" data-name="Grupo 1185240" transform="translate(0 15.342)">
+        <g id="Grupo_1185238" data-name="Grupo 1185238">
+          <path id="Rectángulo_458975" data-name="Rectángulo 458975" d="M-15-15H34.312V25.284H-15Zm46.423,2.889H-12.111V22.4H31.423Z" transform="translate(15 15)" fill="#fff"/>
+          <path id="Línea_3383" data-name="Línea 3383" d="M46.423-12.111H0V-15H46.423Z" transform="translate(1.445 46.424)" fill="#fff"/>
+          <path id="Línea_3384" data-name="Línea 3384" d="M26.211-12.111H0V-15H26.211Z" transform="translate(11.55 58.467)" fill="#fff"/>
+        </g>
+        <g id="Grupo_1185239" data-name="Grupo 1185239" transform="translate(14.48 38.84)">
+          <path id="Línea_3385" data-name="Línea 3385" d="M-12.111,6.072H-15V0h2.889Z" transform="translate(15 0)" fill="#fff"/>
+          <path id="Línea_3386" data-name="Línea 3386" d="M-12.111,6.072H-15V0h2.889Z" transform="translate(32.463 0)" fill="#fff"/>
+        </g>
+      </g>
+      <g id="Grupo_1185241" data-name="Grupo 1185241" transform="translate(12.471 23.407)">
+        <path id="Trazado_1031366" data-name="Trazado 1031366" d="M170.35,120.163l-9.128-5.27V104.353l9.128-5.27,9.128,5.27v10.541Zm-6.239-6.938,6.239,3.6,6.239-3.6v-7.2l-6.239-3.6-6.239,3.6Z" transform="translate(-158.165 -99.082)" fill="#fff"/>
+        <path id="Trazado_1031367" data-name="Trazado 1031367" d="M177.128,156.828l-8.406-4.853,1.445-2.5,6.961,4.019,6.961-4.019,1.445,2.5Z" transform="translate(-164.943 -144.619)" fill="#fff"/>
+        <path id="Línea_3387" data-name="Línea 3387" d="M-3.616-8.246-7.5-10.488l1.445-2.5,3.884,2.242Z" transform="translate(26.158 26.82)" fill="#fff"/>
+        <path id="Línea_3388" data-name="Línea 3388" d="M-6.055-8.024l-1.445-2.5,4.268-2.464,1.445,2.5Z" transform="translate(7.5 26.82)" fill="#fff"/>
+        <path id="Línea_3389" data-name="Línea 3389" d="M-12.111,8.872H-15V0h2.889Z" transform="translate(25.74 10.54)" fill="#fff"/>
+      </g>
+      <path id="Línea_3390" data-name="Línea 3390" d="M-12.111,4.524H-15V0h2.889Z" transform="translate(38.211 20.957)" fill="#fff"/>
+      <path id="Línea_3391" data-name="Línea 3391" d="M9.218-12.111H0V-15H9.218Z" transform="translate(5.82 36.217)" fill="#fff"/>
+      <path id="Línea_3392" data-name="Línea 3392" d="M5.657-12.111H0V-15H5.657Z" transform="translate(5.82 41.996)" fill="#fff"/>
+      <path id="Línea_3393" data-name="Línea 3393" d="M9.218-12.111H0V-15H9.218Z" transform="translate(34.065 36.217)" fill="#fff"/>
+      <path id="Línea_3394" data-name="Línea 3394" d="M5.657-12.111H0V-15H5.657Z" transform="translate(37.626 41.996)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

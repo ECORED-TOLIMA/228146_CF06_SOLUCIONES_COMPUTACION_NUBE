@@ -2,31 +2,404 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 20%
-    right: 10%
+    top: 12%
+    right: 74%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 66%
+    right: 7%
 
 @keyframes float1
   0%
     transform: translateY(20px)
   100%
     transform: translateY(0px)
-  
+
 .banner-principal .tarjeta
   background-position: left 50% !important
-
 .banner-principal__row .banner-principal__img
-  width: 400px !important  
-
-.titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: white !important
-
+  width: 500px !important
+// .titulo-principal.color-acento-contenido .titulo-principal__numero span
+//   color: black !important
 .banner-interno__titulo__icono i
   color: $color-primario
-
+.barra-avance__boton--regresar span
+  color: $white !important
+.banner-principal
+  .container.tarjeta
+    background-image: url("../assets/curso/portada/fondo-banner-principal.png")
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+    min-height: auto
+    @media (max-width: $bp-max-md)
+      background-size: contain
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
+    @media (max-width: $bp-max-xs)
+      background-size: cover
+      min-height: 550px
+      background-color: #69D7E5
+.banner-interno__fondo
+  background-image: url("../assets/curso/portada/banner.png") !important
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 figcaption
   font-weight: normal
+//- Modulo cajones
+.cajon.C01
+  background-color: #D5F4F8
+.cajon.C02
+  background-color: #CFE8FF
+.cajon.C03
+  background-color: #FFF7DF
+.cajon.C04
+  background-color: #FFE79E 
+.cajon.C05
+  background-color: #A4E7F0
+.cajon.C06
+  background-color: #F1E6EF
+.cajon.C07
+  background-color: #9ED1FF
+.cajon.C08
+  background-color: #110628
+  p 
+    color: $white
+.cajon.C09
+  background-color: #fff
+.cajon.C10
+  background-color: #F3F9FF
+//- Modulo tarjetas
+.tarjeta--tabla
+  background-color: #CFE8FF
+  &:nth-child(even)
+    background-color: #D5F4F8
+.tarjeta--C01
+  background-color: #CFE8FF
+.tarjeta--C02
+  background-color: #A4E7F0
+.tarjeta--C03
+  background-color: #F1E6EF
+.tarjeta--C04
+  background-color: #69D7E5
+.tarjeta--C05
+  background-color: #9ED1FF
+.tarjeta--C06
+  background-color: #FFE79E 
+.tarjeta--C07
+  background-color: #D5F4F8
+.tarjeta--C08
+  background-color: #FFF7DF
+.tarjeta--C09
+  background-color: #CFE8FF
+.tarjeta--C10
+  background-color: #FFFDC8
+.tarjeta-numerada__numero
+  background-color: #FFB851
+.tarjeta--C11
+  background-color: #FFF0C3
+.tarjeta--C12
+  background-color: #FFD453
+.C01
+  color: #FFB851
+.BG01
+  background-image: url("../assets/curso/BG01.png")
+  background-repeat: no-repeat
+  background-size: 100% 100% 
+  margin-inline: -5.2rem !important
+  @media (max-width: $bp-max-md)
+    margin-inline: -1.5rem !important 
+    padding-left: 0 !important 
+    padding-right: 0 !important 
+    background-size: cover 
+.tarjeta--BG02
+  background-image: url("../assets/curso/BG02.png")
+  background-size: cover
+  background-repeat: no-repeat
+  margin-inline: -3rem !important
+  @media (max-width: $bp-max-sm)
+    margin-inline: -1.5rem !important
+.BG03
+  background-image: url("../assets/curso/BG03.png")
+  background-repeat: no-repeat
+  background-size: 100% 100% 
+  margin-inline: -5.2rem !important
+  @media (max-width: $bp-max-md)
+    margin-inline: -1.5rem !important 
+    padding-left: 0 !important 
+    padding-right: 0 !important 
+    background-size: cover 
+.tarjeta--BG04
+  background-image: url("../assets/curso/BG04.png")
+  background-size: cover
+  background-repeat: no-repeat
+//- modulo titulos adicionales
+.titulo01
+  position: relative
+  left: -2%
+  background-color: #FFE79E
+  border-radius: 20px
+  h3
+    color: black
+  @media screen and ( max-width: $bp-max-lg )
+    left: -3%
+  @media screen and ( max-width: $bp-max-sm )
+    left: -4%
+//- Modulo slyders
+.tarjeta--slyder
+  height: 100%
+  background-color: white
+  // box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  text-align: center
+.custom
+  .horizontal-scroll__wrapper
+    padding: 2rem 0.5rem
+.slyder-f__btn i
+  color: #AE0000
+.custom
+  .horizontal-scroll
+    align-items: stretch !important
+.slyder__btn
+  background-color: #AE0000
+  color: #fff
+.slyder-b__btn--sigt, .slyder-a__btn--atrs
+  background-color: #AE0000
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/chevron-right2.png)
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #AE0000
+  color: #FFFF
+  border: none
+  opacity: 100
+  background-image: url(../assets/curso/chevron-right2.png)
+@media (max-width: 576px)
+  .slyder-a__btn--atrs, .slyder-a__btn--sigt 
+    width: 25px
+    height: 25px
+.slyder-a__bullets__item
+  background-color: #AE0000
+  border: none
+.slyder-a__bullets__item--active
+  background-color: #1E535A
+  border: none
+//- Modulo tablas
+.table
+  width: 100%
+  border-collapse: collapse
+thead
+  tr
+    th
+      background-color: #FFF7DF
+.tabla-a.color-acento-contenido
+  td
+    text-align: left
+.tabla-a.color-primario
+  th
+    background-color: #FFF6E2
+  td
+    text-align: left
+.tabla-a.responsive
+  width: 100%
+  overflow-x: auto
+  -webkit-overflow-scrolling: touch
+  border-radius: 8px
+  th, td
+  padding: 0.75rem
+  text-align: left
+  vertical-align: top
+  word-break: break-word
+  hyphens: auto
+  white-space: nowrap
+  padding: 0.75rem
+  text-align: center
+.tabla-a.responsive table
+  min-width: 970px
+  border-collapse: collapse
+.tabla-a.responsive th, .tabla-a.responsive td
+  white-space: nowrap
+  padding: 0.75rem
+  text-align: center
+@media (max-width: 768px)
+  th, td
+    font-size: 0.85rem
+    padding: 0.5rem
+//- Modulo medidas imagenes
+.img75
+  width: 75px 
+.img80
+  width: 80px 
+.img90
+  width: 90px 
+.img50
+  width: 50px
+.img100
+  width: 100px
+.img120
+  width: 120px
+.img130
+  width: 130px
+.img150
+  width: 150px
+.img180
+  width: 180px
+.img200
+  width: 200px
+.img250
+  width: 250px
+.img280
+  width: 280px
+.img310
+  width: 310px
+.img400
+  width: 400px
+//- Modulo crd x4 (2)
+.crd01
+  &.brd--rad
+    border-radius: 20px 
+  &.crd--grayGrad
+    padding: 2.4rem
+    height: 100%
+    background-color: #AE0000
+    h4, p
+      color: $white
+    // h5
+    //   color: $white
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+    height: 100%
+    border-radius: 15px    
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23)
+    &:hover      
+      background-color: #A4E7F0  
+      background-size: cover
+      h4, p
+        color: $black !important
+      background-repeat: no-repeat
+      background-position: center
+      .bottomCircle01
+        &::before
+          // background-image: url("../assets/curso/BG05.svg")
+          background-size: cover
+          background-repeat: no-repeat
+          background-position: center
+  &.crd--blue
+    background-color: #B1DBEA
+  &.crd--border
+    border: 4px solid $color-acento-botones
+    border-radius: 20px
+.bottomCircle01
+  position: relative
+  & > *
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%,-50%)
+    width: 100px
+    height: 100px
+    // background-image: url("../assets/curso/BG04.svg")
+    background-size: cover
+    background-repeat: no-repeat
+    background-position: center
+// Modulo versión escritorio/movil para figuras
+@media (min-width: 992px)
+  .desktop 
+    display: inline
+  .movil 
+    display: none
+@media (max-width: 991px)
+  .movil 
+    display: inline
+  .desktop 
+    display: none
+//- Listas
+.lista-ul li, ol.lista-ol li, .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
+  display: flex
+ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
+  li
+    .lista-ol--cuadro__vineta
+      span.text-bold
+        color: $black
+.lista-ul--color li > i:first-of-type
+  color: #1E535A
+// modulo tabs
+.tabs-a__tab
+  background-color: #F1E6EF
+.tabs-c__content-item
+  background-color: #CFE8FF  
+.tabs-c__tab
+  background-color: #AE0000
+  span
+    color: #fff
+.tabs-c__tab--active
+  background-color: #fff
+  span
+    color: #12263F
+.tabs-b__tab--active:hover
+  background-color: #FFE4E4
+.tabs-b__content-item
+  background-color: #DEFFF4
+.tabs-b__tab
+  background-color: #FFE4E4
+.tabs-b__tab--active
+  background-color: #DEFFF4
+.tabs-c__header
+  margin-bottom: 0 !important
+.tabs-c.color-acento-botones .tabs-c__tab--active
+  font-weight: 700
+//- pasosb color fondo btn left and right
+.pasos-b__header__btn--left, .pasos-b__header__btn--right, 
+  background-color: #AE0000
+  border: none
+  color: #fff
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+  background-color: #6CB9FF
+  border: #6CB9FF
+.pasos-b__header__item--before .pasos-b__header__item__dot i
+  color: #12263F
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+  background-color: #9D9D9D 
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before
+  background-color: #9D9D9D
+.pasos-b__header__btn--left i, .pasos-b__header__btn--right i
+//Modulo lineas de tiempo
+.linea-tiempo-c__header__btn--left, .linea-tiempo-c__header__btn--right, 
+  background-color: #AE0000
+  border: none
+  color: #fff
+.linea-tiempo-d.color-acento-botones.especial
+  .linea-tiempo-d__item--selected
+    .linea-tiempo-d__item__content
+      background-color: #CFE8FF !important 
+    .tarjeta.tarjeta--gris
+      background-color: #6CB9FF
+      span
+        color: $black
+  .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title
+    span
+      color: #000 !important
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #F1E6EF
+.tarjeta.tarjeta--gris
+  background-color: #AE0000
+.linea-tiempo-d__item__number
+  span
+    color: #fff
+//- Modulo acordions
+.acordion
+  .acordion__activo
+    background-color: #CFE8FF
+  .acordion__accion__btn--b
+    background-color: #AE0000  
+    border: none
+    color: #ffffff
+  .acordion__accion__btn--a
+    background-color: #AE0000
+    border: none
+    color: #ffffff
