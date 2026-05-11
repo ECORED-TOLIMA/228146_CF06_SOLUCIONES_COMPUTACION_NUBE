@@ -214,19 +214,19 @@
           ul.lista-ul--color.mb-4(data-aos="fade-down")
             li.mb-4
               i.fas.fa-cloud-arrow-down
-              p.mb-0 <b>NOT NULL</b>: Impide valores nulos.
+              p.mb-0 <b>NOT NULL</b>: impide valores nulos.
             li.mb-4
               i.fas.fa-cloud-arrow-down
-              p.mb-0 <b>UNIQUE</b>: Evita duplicados.
+              p.mb-0 <b>UNIQUE</b>: evita duplicados.
             li.mb-4
               i.fas.fa-cloud-arrow-down
-              p.mb-0 <b>PRIMARY KEY</b>: Identifica registros únicos.
+              p.mb-0 <b>PRIMARY KEY</b>: identifica registros únicos.
             li.mb-4
               i.fas.fa-cloud-arrow-down
-              p.mb-0 <b>FOREIGN KEY</b>: Establece relaciones entre tablas.
+              p.mb-0 <b>FOREIGN KEY</b>: establece relaciones entre tablas.
             li.mb-0
               i.fas.fa-cloud-arrow-down
-              p.mb-0 <b>CHECK</b>: Valida condiciones específicas.
+              p.mb-0 <b>CHECK</b>: valida condiciones específicas.
       .col-lg-4.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src='@/assets/curso/tema2/img14.svg', alt='Imagen decorativa')

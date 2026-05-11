@@ -179,7 +179,7 @@
           .bottomCircle01.mb-4
             figure
               img(src="@/assets/curso/tema1/img16.svg", alt="alt").img100.m-auto
-          h4.text-center Realizar actualizaciones 
+          h4.text-center Realizar actualizaciones periódicas
           p Consiste en mantener el gestor de bases de datos y sus componentes en versiones actualizadas, corrigiendo vulnerabilidades, mejorando el rendimiento y asegurando compatibilidad con nuevas funcionalidades.
       .col-xl-3.col-lg-8.mb-4.mb-xl-5
         .crd01.crd--grayGrad

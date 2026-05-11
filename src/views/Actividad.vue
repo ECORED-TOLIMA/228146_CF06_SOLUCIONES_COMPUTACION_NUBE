@@ -415,7 +415,11 @@ export default {
               texto: 'La integridad y funcionamiento de los datos.',
               esCorrecta: true,
             },
-            { id: 'c', texto: 'El hardware del servidor.', esCorrecta: false },
+            {
+              id: 'c',
+              texto: 'El <em>hardware</em> del servidor.',
+              esCorrecta: false,
+            },
             { id: 'd', texto: 'El sistema operativo.', esCorrecta: false },
           ],
           mensaje_correcto:
