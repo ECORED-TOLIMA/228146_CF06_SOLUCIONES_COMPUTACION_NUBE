@@ -209,7 +209,7 @@
       .col.col-12
         .titulo-sexto.color-acento-contenido
           h5 Figura 1.
-          span Diagrama de casos de uso - Sistema de biblioteca
+          span Arquitectura de base de datos
       .row.justify-content-center
         .col-12
           figure.desktop
@@ -222,7 +222,7 @@
             .anexo__icono
               img(src="@/assets/bullets/icono-pdf.svg")
             .anexo__texto
-              p Figura 1. Diagrama de casos de uso - Sistema de biblioteca
+              p Figura 1. Arquitectura de base de datos
 </template>
 
 <script>

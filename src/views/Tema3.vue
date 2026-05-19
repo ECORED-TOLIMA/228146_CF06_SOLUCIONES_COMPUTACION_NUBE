@@ -367,7 +367,7 @@
         figure
           img(src='@/assets/curso/tema3/img09.svg', alt='Imagen decorativa')
     .row.BG03.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")
-      .col.col-12.col-lg-10
+      .col.col-12.col-lg-9
         .row.align-items-center.mb-4(data-aos="flip-down")
           .col-auto.pe-0(style="z-index:2")
             figure
@@ -384,15 +384,15 @@
             figure
               img(src='@/assets/curso/tema3/img10.jpg', alt='Imagen decorativa')
           .col.col-auto.col-lg-9
-            p.mb-4(data-aos="fade-down") Importante:
-            ul.lista-ul--color
+            p.mb-2(data-aos="fade-down") Importante:
+            ul.lista-ul--color.mb-2
               li.mb-0
                 i.lista-ul__vineta
                 h5.mb-0 WHERE filtra registros.
               li.mb-0
                 i.lista-ul__vineta
                 h5.mb-0 HAVING filtra agrupaciones.
-            p.mb-4(data-aos="fade-down") La manipulación y consulta de datos mediante SQL representa el núcleo operativo de las bases de datos, permitiendo transformar información en conocimiento útil. El dominio de estas herramientas facilita la construcción de consultas eficientes, el análisis de datos y la toma de decisiones basadas en información confiable.
+            p.mb-2(data-aos="fade-down") La manipulación y consulta de datos mediante SQL representa el núcleo operativo de las bases de datos, permitiendo transformar información en conocimiento útil. El dominio de estas herramientas facilita la construcción de consultas eficientes, el análisis de datos y la toma de decisiones basadas en información confiable.
             p.mb-0(data-aos="fade-down") Basado en lo anterior, se presenta el siguiente diagrama que resume todo el proceso de ejecución de consulta:
     .row.justify-content-center.mb-0(data-aos="flip-up")
       .col.col-12

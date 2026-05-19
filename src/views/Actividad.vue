@@ -158,7 +158,7 @@ export default {
             { id: 'c', texto: 'Simple Query Logic.', esCorrecta: false },
             {
               id: 'd',
-              texto: '<em>software</em> Query Link.',
+              texto: 'software Query Link.',
               esCorrecta: false,
             },
           ],
@@ -173,10 +173,10 @@ export default {
           imagen: require('@/assets/actividad/imagen6.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'SELECT.', esCorrecta: false },
-            { id: 'b', texto: 'INSERT.', esCorrecta: false },
-            { id: 'c', texto: 'CREATE.', esCorrecta: true },
-            { id: 'd', texto: 'UPDATE.', esCorrecta: false },
+            { id: 'a', texto: 'SELECT', esCorrecta: false },
+            { id: 'b', texto: 'INSERT', esCorrecta: false },
+            { id: 'c', texto: 'CREATE', esCorrecta: true },
+            { id: 'd', texto: 'UPDATE', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Muy bien! CREATE permite definir estructuras de base de datos.',
@@ -222,10 +222,10 @@ export default {
           imagen: require('@/assets/actividad/imagen9.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'DELETE.', esCorrecta: false },
-            { id: 'b', texto: 'SELECT.', esCorrecta: true },
-            { id: 'c', texto: 'DROP.', esCorrecta: false },
-            { id: 'd', texto: 'ALTER.', esCorrecta: false },
+            { id: 'a', texto: 'DELETE', esCorrecta: false },
+            { id: 'b', texto: 'SELECT', esCorrecta: true },
+            { id: 'c', texto: 'DROP', esCorrecta: false },
+            { id: 'd', texto: 'ALTER', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Excelente! SELECT permite recuperar información almacenada.',
@@ -290,10 +290,10 @@ export default {
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
-            { id: 'a', texto: 'LEFT.', esCorrecta: false },
-            { id: 'b', texto: 'RIGHT.', esCorrecta: false },
-            { id: 'c', texto: 'INNER.', esCorrecta: true },
-            { id: 'd', texto: 'FULL.', esCorrecta: false },
+            { id: 'a', texto: 'LEFT', esCorrecta: false },
+            { id: 'b', texto: 'RIGHT', esCorrecta: false },
+            { id: 'c', texto: 'INNER', esCorrecta: true },
+            { id: 'd', texto: 'FULL', esCorrecta: false },
           ],
           mensaje_correcto:
             '¡Excelente! INNER JOIN devuelve solo registros coincidentes.',
