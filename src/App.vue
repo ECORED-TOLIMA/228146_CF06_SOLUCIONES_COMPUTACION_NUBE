@@ -21,6 +21,11 @@ export default {
       return this.$store.getters.isMenuOpen
     },
   },
+  watch: {
+    $route() {
+      this.iniciarObservadorPasos()
+    },
+  },
   mounted() {
     this.$aos.init({
       offset: 100,
